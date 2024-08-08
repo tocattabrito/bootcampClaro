@@ -1,8 +1,9 @@
-package msnmessenger;
+package apps;
 
-public class MSNMensseger extends  ServicoMensagemInstantanea{
+public class MSNMensseger extends ServicoMensagemInstantanea {
     @java.lang.Override
     public void enviarMensagem() {
+        validarConectadoInternet();
         System.out.println("Enviando mensagem pelo MSN Messenger");
     }
 
