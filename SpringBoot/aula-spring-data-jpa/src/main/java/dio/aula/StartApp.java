@@ -14,9 +14,9 @@ public class StartApp implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         User user = new User();
-        user.setName("João Brito");
-        user.setUsername("tocatta");
-        user.setPassword("test123");
+        user.setName("Carlos Eduardo");
+        user.setUsername("cadu");
+        user.setPassword("test147");
 
         repository.save(user);
 
